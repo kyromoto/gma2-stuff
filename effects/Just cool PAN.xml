@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-08-24T12:42:40" showfile="test-show-2" />
+	<Effect index="1" name="Just cool PAN">
+		<Forms>
+			<Form index="7" name="Sin" display_2d="false">
+				<SubForm index="0" display_spec_index="0" graph_color="c0c0c0">
+					<SubFormPoint index="0" y="0.5" mode="spline" />
+					<SubFormPoint index="1" x="0.125" y="0.85355341" mode="spline" />
+					<SubFormPoint index="2" x="0.25" y="1" mode="spline" />
+					<SubFormPoint index="3" x="0.375" y="0.85355341" mode="spline" />
+					<SubFormPoint index="4" x="0.5" y="0.49999997" mode="spline" />
+					<SubFormPoint index="5" x="0.625" y="0.14644656" mode="spline" />
+					<SubFormPoint index="6" x="0.75" mode="spline" />
+					<SubFormPoint index="7" x="0.875" y="0.14644673" mode="spline" />
+				</SubForm>
+			</Form>
+		</Forms>
+		<Effectline index="0" attribute="PAN" blocks="0" groups="0" wings="2" rate="1" v1_a="-50" v1_b="-50" v2_a="50" v2_b="50" phase_a="0" phase_b="180" width_a="100" width_b="100" pwm_attack="0" pwm_decay="0" interleave="0">
+			<flags form_index="7" sub_form_index="0" />
+			<Fixtures>
+				<Fixture>1</Fixture>
+				<Fixture>2</Fixture>
+				<Fixture>3</Fixture>
+				<Fixture>4</Fixture>
+				<Fixture>8</Fixture>
+				<Fixture>7</Fixture>
+				<Fixture>6</Fixture>
+				<Fixture>5</Fixture>
+			</Fixtures>
+		</Effectline>
+	</Effect>
+</MA>

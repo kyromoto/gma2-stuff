@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2018-08-24T12:42:38" showfile="test-show-2" />
+	<Effect index="0" name="FlyOut Tilt">
+		<Forms>
+			<Form index="20" name="Flyout" display_2d="false">
+				<SubForm index="0" name="dimmer" display_spec_index="0" graph_color="c0c0c0">
+					<SubFormPoint index="0" x="0.19954337" mode="linear" />
+					<SubFormPoint index="1" x="0.29954299" y="1" mode="linear" />
+					<SubFormPoint index="2" x="0.95045626" y="1" mode="linear" />
+					<SubFormPoint index="3" x="1" mode="linear" />
+				</SubForm>
+				<SubForm index="1" name="Position" display_spec_index="0" graph_color="30c0c0">
+					<SubFormPoint index="0" mode="linear" />
+					<SubFormPoint index="1" x="1" y="1" mode="linear" />
+				</SubForm>
+			</Form>
+		</Forms>
+		<Effectline index="0" attribute="TILT" blocks="0" groups="4" wings="2" rate="1" v1_a="-50" v1_b="-50" v2_a="50" v2_b="50" phase_a="-180" phase_b="180" width_a="100" width_b="100" pwm_attack="0" pwm_decay="0" interleave="0">
+			<flags absolute_mode="true" form_index="20" sub_form_index="1" />
+			<v1_p name="Stage 2.1">
+				<No>1</No>
+				<No>2</No>
+				<No>1</No>
+			</v1_p>
+			<v2_p name="Sky 2.2">
+				<No>1</No>
+				<No>2</No>
+				<No>2</No>
+			</v2_p>
+			<Fixtures>
+				<Fixture>1</Fixture>
+				<Fixture>3</Fixture>
+				<Fixture>2</Fixture>
+				<Fixture>4</Fixture>
+				<Fixture>5</Fixture>
+				<Fixture>7</Fixture>
+				<Fixture>6</Fixture>
+				<Fixture>8</Fixture>
+			</Fixtures>
+		</Effectline>
+		<Effectline index="1" attribute="DIM" blocks="0" groups="4" wings="2" rate="1" v1_a="0" v1_b="0" v2_a="100" v2_b="100" phase_a="-180" phase_b="180" width_a="100" width_b="100" pwm_attack="0" pwm_decay="0" interleave="0">
+			<flags absolute_mode="true" form_index="20" sub_form_index="0" />
+			<v1_p name="Closed 1.1">
+				<No>1</No>
+				<No>1</No>
+				<No>1</No>
+			</v1_p>
+			<v2_p name="Open 1.3">
+				<No>1</No>
+				<No>1</No>
+				<No>3</No>
+			</v2_p>
+			<Fixtures>
+				<Fixture>1</Fixture>
+				<Fixture>3</Fixture>
+				<Fixture>2</Fixture>
+				<Fixture>4</Fixture>
+				<Fixture>5</Fixture>
+				<Fixture>7</Fixture>
+				<Fixture>6</Fixture>
+				<Fixture>8</Fixture>
+			</Fixtures>
+		</Effectline>
+	</Effect>
+</MA>
