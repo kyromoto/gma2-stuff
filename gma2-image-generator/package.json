@@ -1,0 +1,14 @@
+{
+  "name": "gma2-image-generator",
+  "version": "1.0.0",
+  "description": "An image generator for an GMA2 colorpicker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "info@oliverrademaker.de",
+  "license": "ISC",
+  "dependencies": {
+    "pngjs-image": "0.11.7"
+  }
+}
