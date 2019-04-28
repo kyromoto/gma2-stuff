@@ -2,19 +2,61 @@
     "output" : "output",
     
     "size" : {
-        "width" : 100,
-        "height" : 100
+        "width" : 150,
+        "height" : 150
     },
-    "border" : 10,
+    "border" : 15,
     "images" : [
-        { "name" : "white",     "type" : "full", "color" : {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255}},
-        { "name" : "red",       "type" : "full", "color" : {"red": 255,     "green": 0,     "blue": 0,      "alpha": 255}},
-        { "name" : "orange",    "type" : "full", "color" : {"red": 255,     "green": 127,   "blue": 0,      "alpha": 255}},
-        { "name" : "yellow",    "type" : "full", "color" : {"red": 255,     "green": 255,   "blue": 0,      "alpha": 255}},
-        { "name" : "green",     "type" : "full", "color" : {"red": 0,       "green": 255,   "blue": 0,      "alpha": 255}},
-        { "name" : "cyan",      "type" : "full", "color" : {"red": 127,     "green": 255,   "blue": 255,    "alpha": 255}},
-        { "name" : "blue",      "type" : "full", "color" : {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}},
-        { "name" : "magenta",   "type" : "full", "color" : {"red": 255,     "green": 0,     "blue": 255,    "alpha": 255}},
-        { "name" : "pink",      "type" : "full", "color" : {"red": 255,     "green": 0,     "blue": 127,    "alpha": 255}}
+        { "name" : "white", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "red", "colors" : [
+            {"red": 255,     "green": 0,     "blue": 0,      "alpha": 255}
+        ]},
+        { "name" : "orange", "colors" : [
+            {"red": 255,     "green": 127,   "blue": 0,      "alpha": 255}
+        ]},
+        { "name" : "yellow", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 0,      "alpha": 255}
+        ]},
+        { "name" : "green", "colors" : [
+            {"red": 0,       "green": 255,   "blue": 0,      "alpha": 255}
+        ]},
+        { "name" : "cyan", "colors" : [
+            {"red": 127,     "green": 255,   "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "blue", "colors" : [
+            {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "magenta", "colors" : [
+            {"red": 255,     "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "pink", "colors" : [
+            {"red": 255,     "green": 0,     "blue": 127,    "alpha": 255}
+        ]},
+        { "name" : "red-blue", "colors" : [
+            {"red": 255,     "green": 0,     "blue": 0,      "alpha": 255},
+            {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "white-red", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255},
+            {"red": 255,     "green": 0,     "blue": 0,      "alpha": 255}
+        ]},
+        { "name" : "white-blue", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255},
+            {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "warm", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255},
+            {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "cold", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 255,    "alpha": 255},
+            {"red": 0,       "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
+        { "name" : "yellow-magenta", "colors" : [
+            {"red": 255,     "green": 255,   "blue": 0,      "alpha": 255},
+            {"red": 255,     "green": 0,     "blue": 255,    "alpha": 255}
+        ]},
     ]
 }

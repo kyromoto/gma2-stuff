@@ -1,4 +1,6 @@
 node_modules
 output
+output.*
+config.json.bak.json
 
 package-lock.json
