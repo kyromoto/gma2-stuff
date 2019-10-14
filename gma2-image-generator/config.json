@@ -57,6 +57,6 @@
         { "name" : "yellow-magenta", "colors" : [
             {"red": 255,     "green": 255,   "blue": 0,      "alpha": 255},
             {"red": 255,     "green": 0,     "blue": 255,    "alpha": 255}
-        ]},
+        ]}
     ]
 }
